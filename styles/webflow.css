@@ -77,7 +77,7 @@
 .raleway-abnormal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 .section{
@@ -187,4 +187,26 @@ body {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 7px;
+}
+.footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 32px;
+}
+
+
+.footer nav {
+  margin-top: 16px;
+}
+
+.footer nav a {
+  margin: 0 15px;
+  color: #5c5a6b;
+  text-decoration: none;
+}
+.logo {
+  color: #4E47FF;
+  font-size: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700px;
 }
