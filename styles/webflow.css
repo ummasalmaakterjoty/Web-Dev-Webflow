@@ -145,3 +145,46 @@
   height: 40px;
   border-radius: 50%;
 }
+.solid {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 30px;
+}
+
+.solid img {
+  margin-top: 20px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 600px;
+}
+body {
+  background-color: #f7f9ff;
+  color: #000;
+  line-height: 1.6;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-left {
+  flex: 1;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-right input, .contact-right textarea {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
