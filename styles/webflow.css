@@ -63,5 +63,31 @@
   text-align: center;
   flex-direction: column;
 }
+.section {
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.raleway-abnormal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-img{
+    width: 405px;
+    height: 330px;
+    border-radius: 30px;
+}
 
 
